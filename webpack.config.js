@@ -7,7 +7,7 @@ const config = {
         index:'./src/App.js'
     },
     output:{
-        path: path.resolve( __dirname, 'src') + 'E:\hassan\SSRAPP\SSR\src\App.js',
+        path: path.resolve( __dirname, './dist'),
         filename:'index.js',
         libraryTarget:'umd',
         publicpath:'/'
