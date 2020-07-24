@@ -24,5 +24,5 @@ function  renderMarkup(html) {
             <div id = "app">${html}</div>
             <script src="./index.js"></script>
         </body>
-   </html>';
+      </html>';   
 }
