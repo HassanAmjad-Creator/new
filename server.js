@@ -22,7 +22,8 @@ function  renderMarkup(html) {
         </head>
         <body>
             <div id = "app">${html}</div>
-            <script src="./index.js"></script>
         </body>
       </html>;
 }
+
+//<script src="./index.js"></script>
