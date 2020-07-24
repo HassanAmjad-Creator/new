@@ -14,7 +14,7 @@ app.listen(3000,() => {
     console.log('I actually work');
 });
 function  renderMarkup(html) {
-    return '<!DOCTYPE html>
+    return '<!DOCTYPE html>';
     <html>
         <head>
             <title>webpack SSR Demo</title>
@@ -24,5 +24,5 @@ function  renderMarkup(html) {
             <div id = "app">${html}</div>
             <script src="./index.js"></script>
         </body>
-      </html>'; 
+      </html>;
 }
