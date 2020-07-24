@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "build": "^0.1.4",
+    "nodeserver": "^0.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "yarn": "^1.22.4"
