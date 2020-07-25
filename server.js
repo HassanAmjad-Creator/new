@@ -6,7 +6,7 @@ const App = require('./dist/index')
 app.use(express.static('dist'))
 
 app.get('/' , (req,res) => {
-    const htmlBody = '';
+    const htmlBody = ReactDOMServer.renderToString(App());
     res.send(renderMarkup(htmlBody))
 })
 
