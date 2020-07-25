@@ -14,16 +14,16 @@ app.listen(3000,() => {
     console.log('I actually work');
 });
 function  renderMarkup(html) {
-    return '<!DOCTYPE html>';
+    return `<!DOCTYPE html>
     <html>
         <head>
             <title>webpack SSR Demo</title>
-            <meta charsat = "utf-8" />
+            <meta charset= "utf-8" />
         </head>
         <body>
             <div id = "app">${html}</div>
         </body>
-      </html>;
+      </html>`;
 }
 
 //<script src="./index.js"></script>
