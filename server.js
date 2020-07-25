@@ -21,8 +21,8 @@ function  renderMarkup(html) {
             <meta charset= "utf-8" />
         </head>
         <body>
-            <div id = "app">${html}</div>
-             <button>TEST</div>
+            <div id = "root">${html}</div>
+             <script src="./index.js"></script>
         </body>
       </html>`;
 }
