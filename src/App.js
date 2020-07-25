@@ -7,7 +7,7 @@ const App = () => {
     }
 
     return (
-        <button onclick={onBtnClick}>
+        <button onClick={onBtnClick}>
         click me please!
         </button>
     )
