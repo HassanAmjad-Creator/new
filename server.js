@@ -22,6 +22,7 @@ function  renderMarkup(html) {
         </head>
         <body>
             <div id = "app">${html}</div>
+            <button>TEST</div>
         </body>
       </html>`;
 }
