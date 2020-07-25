@@ -10,6 +10,7 @@ const config = {
         path: path.resolve( __dirname, './dist'),
         filename:'index.js',
         libraryTarget:'umd',
+        globalObject: 'this',
     },
     module: {
         rules:[ {
