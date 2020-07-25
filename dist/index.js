@@ -235,7 +235,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nconst ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nconst App = () => {\n  const onBtnClick = () => {\n    alert('hello world');\n  };\n\n  return /*#__PURE__*/React.createElement(\"button\", {\n    onclick: onBtnclick\n  }, \"click me please!\");\n};\n\nmodule.exports = App;\n\n//# sourceURL=webpack:///./src/App.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nconst ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nconst App = () => {\n  const onBtnClick = () => {\n    alert('hello world');\n  };\n\n  return /*#__PURE__*/React.createElement(\"button\", {\n    onclick: onBtnClick\n  }, \"click me please!\");\n};\n\nmodule.exports = App;\n\n//# sourceURL=webpack:///./src/App.js?");
 
 /***/ })
 
